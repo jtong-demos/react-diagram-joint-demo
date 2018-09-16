@@ -6,6 +6,7 @@ import './App.css';
 import joint from 'jointjs'
 
 import HelloWorld from './examples/HelloWorld'
+import PaperStyle from './examples/PaperStyle'
 
 class App extends Component {
 
@@ -19,6 +20,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <label>HelloWorld</label><HelloWorld />
+        <label>PaperStyle</label><PaperStyle />
       </div>
     );
   }
