@@ -7,6 +7,7 @@ import joint from 'jointjs'
 
 import HelloWorld from './examples/HelloWorld'
 import PaperStyle from './examples/PaperStyle'
+import PaperScale from './examples/PaperScale'
 
 class App extends Component {
 
@@ -21,6 +22,7 @@ class App extends Component {
         </header>
         <label>HelloWorld</label><HelloWorld />
         <label>PaperStyle</label><PaperStyle />
+        <label>PaperScale</label><PaperScale />
       </div>
     );
   }
