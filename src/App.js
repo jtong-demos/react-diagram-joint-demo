@@ -5,64 +5,20 @@ import logo from './logo.svg';
 import './App.css';
 import joint from 'jointjs'
 
+import HelloWorld from './examples/HelloWorld'
+
 class App extends Component {
-
-  constructor(props){
-    super(props);
-    this.graph = new joint.dia.Graph;
-    this.cells = [];
-
-  }
-
-  componentDidMount(){
-    const paper = new joint.dia.Paper({
-      el: ReactDOM.findDOMNode(this.refs.placeholder),
-      width: 600,
-      height: 200,
-      model: this.graph,
-      gridSize: 1
-    });
-    var rect = new joint.shapes.standard.Rectangle();
-    rect.position(100, 30);
-    rect.resize(100, 40);
-    rect.attr({
-      body: {
-        fill: 'blue'
-      },
-      label: {
-        text: 'Hello',
-        fill: 'white'
-      }
-    });
-    rect.addTo(this.graph);
-
-    var rect2 = rect.clone();
-    rect2.translate(300, 0);
-    rect2.attr('label/text', 'World!');
-    rect2.addTo(this.graph);
-
-    var link = new joint.shapes.standard.Link();
-    link.source(rect);
-    link.target(rect2);
-    link.addTo(this.graph);
-  }
 
   render() {
     
 
-
-  
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-
-        <div ref="placeholder"></div>
+        <label>HelloWorld</label><HelloWorld />
       </div>
     );
   }
