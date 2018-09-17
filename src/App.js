@@ -8,6 +8,7 @@ import joint from 'jointjs'
 import HelloWorld from './examples/HelloWorld'
 import PaperStyle from './examples/PaperStyle'
 import PaperScale from './examples/PaperScale'
+import LinkLabelAndVertices from './examples/LinkLabelAndVertices'
 
 class App extends Component {
 
@@ -23,6 +24,7 @@ class App extends Component {
         <label>HelloWorld</label><HelloWorld />
         <label>PaperStyle</label><PaperStyle />
         <label>PaperScale</label><PaperScale />
+        <label>LinkLabel And Vertices</label><LinkLabelAndVertices />
       </div>
     );
   }
