@@ -8,6 +8,7 @@ import PaperStyle from './examples/PaperStyle'
 import PaperScale from './examples/PaperScale'
 import LinkLabelAndVertices from './examples/LinkLabelAndVertices'
 import ElementResizeWithText from './examples/ElementResizeWithText'
+import LinkConnectRect from './examples/LinkConnectRect'
 
 class App extends Component {
 
@@ -25,6 +26,8 @@ class App extends Component {
         <label>PaperScale</label><PaperScale />
         <label>LinkLabel And Vertices</label><LinkLabelAndVertices />
         <label>ElementResizeWithText</label><ElementResizeWithText />
+        <label>LinkConnectRect</label><LinkConnectRect />
+        
       </div>
     );
   }
