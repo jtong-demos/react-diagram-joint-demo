@@ -7,7 +7,7 @@ class GraphContainer extends Component {
 
   constructor(props){
     super(props);
-    this.graph = new joint.dia.Graph;
+    this.graph = new joint.dia.Graph();
     this.cells = [];
 
   }

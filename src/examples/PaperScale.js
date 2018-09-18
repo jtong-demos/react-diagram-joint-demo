@@ -7,7 +7,7 @@ class GraphContainer extends Component {
 
     constructor(props) {
         super(props);
-        this.graph = new joint.dia.Graph;
+        this.graph = new joint.dia.Graph();
         this.cells = [];
 
     }
@@ -24,7 +24,7 @@ class GraphContainer extends Component {
                 color: 'rgba(0, 255, 0, 0.3)'
             }
         });
-        
+
         paper.scale(0.5, 0.5);
 
         var rect = new joint.shapes.standard.Rectangle();

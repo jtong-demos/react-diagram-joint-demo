@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 
 import logo from './logo.svg';
 import './App.css';
-import joint from 'jointjs'
 
 import HelloWorld from './examples/HelloWorld'
 import PaperStyle from './examples/PaperStyle'
 import PaperScale from './examples/PaperScale'
 import LinkLabelAndVertices from './examples/LinkLabelAndVertices'
+import ElementResizeWithText from './examples/ElementResizeWithText'
 
 class App extends Component {
 
@@ -25,6 +24,7 @@ class App extends Component {
         <label>PaperStyle</label><PaperStyle />
         <label>PaperScale</label><PaperScale />
         <label>LinkLabel And Vertices</label><LinkLabelAndVertices />
+        <label>ElementResizeWithText</label><ElementResizeWithText />
       </div>
     );
   }
