@@ -29,6 +29,19 @@ class App extends Component {
         <label>ElementResizeWithText</label><ElementResizeWithText />
         <label>LinkConnectRect</label><LinkConnectRect />
         <label>ElementOutline</label><ElementOutline />
+        {
+          // TODO 
+          // on click show outline
+          // link tool
+          // onclick show link tool, and delete link
+          // outline tool
+          // group
+          // port
+          // drag and drop
+          // select
+          // export import
+          
+        }
       </div>
     );
   }

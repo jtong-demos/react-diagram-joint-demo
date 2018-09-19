@@ -60,6 +60,95 @@ class GraphContainer extends Component {
             }
         });
         outline.addTo(this.graph);
+
+
+        var outline2 = el.clone();
+        outline2.translate(210, 100);
+        outline2.attr({
+            body: {
+                
+                fill: {
+                    type: 'lineGradient',
+                    opacity: 1,
+
+                },
+                filter: {
+                    name: 'outline',
+                    args: {
+                        color: 'red',
+                        width: 1,
+                        opacity: 1,
+                        margin: 5
+                    }
+                }
+            },
+            label: {
+                text: 'opacity rect \n must have 2 outline'
+            }
+        });
+        outline2.addTo(this.graph);
+
+
+
+        var CustomTextElement = joint.dia.Element.define('examples.CustomTextElement', {
+            attrs: {
+                label: {
+                    textAnchor: 'middle',
+                    textVerticalAnchor: 'middle',
+                    fontSize: 32
+                },
+                
+                r: {
+                    ref: 'label',
+                    strokeWidth: 1,
+                    stroke: '#000000',
+                    fill: 'rgba(0,255,0,0.3)'
+                },
+                outline: {
+                    ref: 'r',
+                    refX: "-5%",
+                    refY: "-10%",
+                    refWidth: '110%',
+                    refHeight: '120%',
+                    strokeWidth: 1,
+                    stroke: '#000000',
+                    strokeDasharray: '5 5',
+                    strokeDashoffset: 2.5,
+                    fill: 'none'
+                }
+            }
+        }, {
+                markup: [ {
+                    tagName: 'rect',
+                    selector: 'r'
+                },  {
+                    tagName: 'text',
+                    selector: 'label'
+                }, {
+                    tagName: 'rect',
+                    selector: 'outline'
+                }]
+            });
+
+        var element = new CustomTextElement();
+        element.attr({
+            label: {
+                text: 'Two Rect'
+            },
+            r: {
+                ref: 'label',
+                refX: "-5%",
+                refY: "-5%",
+                refWidth: '110%',
+                refHeight: '110%',
+            }
+        });
+        element.translate(210, 200);
+        element.addTo(this.graph);
+
+
+
+        
     }
 
    
