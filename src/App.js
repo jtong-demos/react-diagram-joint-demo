@@ -10,6 +10,7 @@ import LinkLabelAndVertices from './examples/LinkLabelAndVertices'
 import ElementResizeWithText from './examples/ElementResizeWithText'
 import LinkConnectRect from './examples/LinkConnectRect'
 import ElementOutline from './examples/ElementOutline'
+import ElementClickedShowOutline from './examples/ElementClickedShowOutline'
 
 class App extends Component {
 
@@ -29,6 +30,7 @@ class App extends Component {
         <label>ElementResizeWithText</label><ElementResizeWithText />
         <label>LinkConnectRect</label><LinkConnectRect />
         <label>ElementOutline</label><ElementOutline />
+        <label>ElementClickedShowOutline</label><ElementClickedShowOutline />
         {
           // TODO 
           // on click show outline
@@ -40,7 +42,7 @@ class App extends Component {
           // drag and drop
           // select
           // export import
-          
+
         }
       </div>
     );
