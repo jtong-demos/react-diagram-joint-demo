@@ -33,7 +33,7 @@ class App extends Component {
         <label>ElementClickedShowOutline</label><ElementClickedShowOutline />
         {
           // TODO 
-          // on click show outline
+          // [v] on click show outline
           // link tool
           // onclick show link tool, and delete link
           // outline tool
