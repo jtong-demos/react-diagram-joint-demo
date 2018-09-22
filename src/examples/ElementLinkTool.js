@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import joint from 'jointjs'
 
-class GraphContainer extends Component {
+class GraphContainer extends Component {Group
 
     constructor(props) {
         super(props);
@@ -52,11 +52,15 @@ class GraphContainer extends Component {
         let segmentsTool = new joint.linkTools.Segments();
         let boundaryTool = new joint.linkTools.Boundary();
         let removeButton = new joint.linkTools.Remove();
+        var targetAnchorTool = new joint.linkTools.TargetAnchor();
+        var targetArrowheadTool = new joint.linkTools.TargetArrowhead();
 
         let toolsView = new joint.dia.ToolsView({
             tools: [
                 segmentsTool,
                 boundaryTool,
+                targetArrowheadTool,
+                targetAnchorTool,
                 removeButton
             ]
         });

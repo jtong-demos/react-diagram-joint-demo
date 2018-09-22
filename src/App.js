@@ -12,6 +12,7 @@ import LinkConnectRect from './examples/LinkConnectRect'
 import ElementOutline from './examples/ElementOutline'
 import ElementClickedShowOutline from './examples/ElementClickedShowOutline'
 import ElementLinkTool from './examples/ElementLinkTool'
+import Group from './examples/Group'
 
 class App extends Component {
 
@@ -33,14 +34,14 @@ class App extends Component {
         <label>ElementOutline</label><ElementOutline />
         <label>ElementClickedShowOutline</label><ElementClickedShowOutline />
         <label>ElementLinkTool</label><ElementLinkTool />
+        <label>Group</label><Group />
         {
           // TODO 
           // [v] on click show outline
           // [v] link tool
           // [v] onclick show link tool, and delete link
           // outline tool
-          // group
-          // port
+          // [v] group
           // drag and drop
           // select
           // export import
