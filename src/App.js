@@ -11,6 +11,7 @@ import ElementResizeWithText from './examples/ElementResizeWithText'
 import LinkConnectRect from './examples/LinkConnectRect'
 import ElementOutline from './examples/ElementOutline'
 import ElementClickedShowOutline from './examples/ElementClickedShowOutline'
+import ElementLinkTool from './examples/ElementLinkTool'
 
 class App extends Component {
 
@@ -31,11 +32,12 @@ class App extends Component {
         <label>LinkConnectRect</label><LinkConnectRect />
         <label>ElementOutline</label><ElementOutline />
         <label>ElementClickedShowOutline</label><ElementClickedShowOutline />
+        <label>ElementLinkTool</label><ElementLinkTool />
         {
           // TODO 
           // [v] on click show outline
-          // link tool
-          // onclick show link tool, and delete link
+          // [v] link tool
+          // [v] onclick show link tool, and delete link
           // outline tool
           // group
           // port

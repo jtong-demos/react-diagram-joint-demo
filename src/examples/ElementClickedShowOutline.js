@@ -98,7 +98,7 @@ class GraphContainer extends Component {
             
         })
 
-        paper.on('blank:pointerdblclick', function (event, x, y) {
+        paper.on('blank:pointerclick', function (event, x, y) {
 
             var elements = paper.model.getElements();
             elements.forEach(element => {
