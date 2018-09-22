@@ -11,7 +11,49 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <link rel="stylesheet" type="text/css" href="joint.css" />
+<style>
 
+
+  .my-html-element {
+    position: absolute;
+    background: #dbc8a2;
+    pointer-events: none;
+    -webkit-user-select: none;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+  .my-html-element label {
+    line-height: 2em;
+  }
+
+  .my-html-element input {
+    pointer-events: auto;
+  }
+
+  .my-html-element button {
+    pointer-events: auto;
+  }
+  .my-html-element button.linkB {
+    color: white;
+    border: none;
+    background-color: #C0392B;
+    border-radius: 20px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: middle;
+    position: absolute;
+    top: 15px;
+    right: -15px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    cursor: pointer;
+    pointer-events: auto;
+    z-index: 999;
+}
+</style>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.

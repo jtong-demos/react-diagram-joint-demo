@@ -13,6 +13,7 @@ import ElementOutline from './examples/ElementOutline'
 import ElementClickedShowOutline from './examples/ElementClickedShowOutline'
 import ElementLinkTool from './examples/ElementLinkTool'
 import Group from './examples/Group'
+import ElementHTMLOutlineTool from './examples/ElementHTMLOutlineTool'
 
 class App extends Component {
 
@@ -35,6 +36,8 @@ class App extends Component {
         <label>ElementClickedShowOutline</label><ElementClickedShowOutline />
         <label>ElementLinkTool</label><ElementLinkTool />
         <label>Group</label><Group />
+        <label>ElementHTMLOutlineTool</label><ElementHTMLOutlineTool />
+
         {
           // TODO 
           // [v] on click show outline
@@ -43,6 +46,7 @@ class App extends Component {
           // outline tool
           // [v] group
           // drag and drop
+          // click to edit
           // select
           // export import
 
