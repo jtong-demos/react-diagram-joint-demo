@@ -196,7 +196,6 @@ class GraphContainer extends Component {
             <div>
                 
                 <div ref="placeholder"></div>
-                <button > + </button>
             </div>
         );
     }
