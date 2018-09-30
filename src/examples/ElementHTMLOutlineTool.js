@@ -34,8 +34,10 @@ class GraphContainer extends Component {
                 type: 'html.Element',
                 attrs: {
                     rect: {
-                        'ref-width': '100%',
-                        'ref-height': '100%',
+                        refX: "2.5%",
+                        refY: "5%",
+                        'ref-width': '95%',
+                        'ref-height': '90%',
                         'stroke': 'gray'
                     }
                 }

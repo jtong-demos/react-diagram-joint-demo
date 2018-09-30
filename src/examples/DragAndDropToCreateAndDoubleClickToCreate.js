@@ -88,19 +88,6 @@ class GraphContainer extends Component {
     onDropHandler = (event) => {
         console.log(event)
         console.log(event.clentX)
-        // var rect = new joint.shapes.standard.Rectangle();
-        // rect.position(100, 30);
-        // rect.resize(100, 40);
-        // rect.attr({
-        //     body: {
-        //         fill: 'blue'
-        //     },
-        //     label: {
-        //         text: 'Hello',
-        //         fill: 'white'
-        //     }
-        // });
-        // rect.addTo(this.graph);
     }
 
     render() {

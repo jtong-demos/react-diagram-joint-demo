@@ -14,7 +14,7 @@ import ElementClickedShowOutline from './examples/ElementClickedShowOutline'
 import ElementLinkTool from './examples/ElementLinkTool'
 import Group from './examples/Group'
 import ElementHTMLOutlineTool from './examples/ElementHTMLOutlineTool'
-import DragAndDropToCreate from './examples/DragAndDropToCreate'
+import DragAndDropToCreate from './examples/DragAndDropToCreateAndDoubleClickToCreate'
 
 class App extends Component {
 
